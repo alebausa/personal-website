@@ -1,0 +1,120 @@
+/* font-family: 'Cutive Mono', monospace; computerlike
+font-family: 'PT Sans', sans-serif; text */
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 960px;
+}
+
+h3,
+h4,
+p {
+  font-family: "PT Sans", sans-serif;
+}
+
+h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/************ HEADER *******************/
+
+.header {
+  background-image: url("../img/header-bg.jpg");
+  background-size: 100%;
+  font-family: "Cultive Mono", monospace;
+  height: 400px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header h1 {
+  margin-left: 10%;
+  font-size: 5em;
+}
+
+/************** NAV BAR ****************/
+
+.nav-bar {
+  background: black;
+  font-family: "Cultive Mono", monospace;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  height: 45px;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  display: inline;
+  vertical-align: middle;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 25px 20px 25px 20px;
+  vertical-align: middle;
+}
+
+/*********** JUMBOTRON ****************/
+
+.jumbotron {
+  background-color: lightgrey;
+  font-family: "PT Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  line-height: 20px;
+}
+
+/********** ARTICLES ****************/
+
+.responsive-img {
+  width: 200px;
+}
+
+.news-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.news-block h3 {
+  text-align: right;
+}
+
+.news-block h4 {
+  font-size: 1.5em;
+  margin-top: 15px;
+}
+
+.news {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.news p {
+  padding: 10px;
+  line-height: 19px;
+}
+
+/*********** PORTFOLIO ************/
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 4;
+}
