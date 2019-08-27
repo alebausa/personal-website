@@ -63,10 +63,6 @@ button {
   );
 }
 
-.active {
-  text-decoration: underline;
-}
-
 /************ HEADER *******************/
 
 .header {
@@ -232,10 +228,31 @@ button {
 footer {
   background-color: #324a5e;
   color: white;
+  margin: 0 auto;
+  padding: 2%;
 }
 
 footer a {
   color: #54c0eb;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.signature {
+  background-color: #324a5e;
+  text-align: center;
+  font-family: "Livvic", sans-serif;
+  padding: 10px 0;
+}
+
+.signature p {
+  color: #ced5e0;
+}
+
+footer col:first-child {
+  margin-left: 10%;
 }
 
 /*********** PORTFOLIO ************/
